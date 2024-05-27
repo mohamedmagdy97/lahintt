@@ -1,0 +1,78 @@
+name: lahint
+description: A new Lahint project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get: ^4.6.5
+  shared_preferences: ^2.0.15
+  image_picker: ^1.0.2
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  flutter_svg: ^2.0.9
+  sms_autofill: ^2.2.0
+  flutter_screenutil: ^5.5.4
+  auto_size_text: ^3.0.0
+  cached_network_image: ^3.2.2
+  carousel_slider: ^4.0.0-nullsafety.0
+  dialogflow_flutter: ^1.0.0
+  flutter_rating_bar: ^4.0.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+#  flutter_launcher_icons: ^0.13.1
+#flutter_icons:
+#  android: "launcher_icon"
+#  ios: true
+#  image_path: "assets/icons/logo.png"
+# add app_icon.png in assets/images
+# Run This To set icon => flutter pub run flutter_launcher_icons:main
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/img/
+    - assets/icons/
+
+  fonts:
+    - family: IBMPlexSansArabic-Regular
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-Regular.ttf
+    - family: IBMPlexSansArabic-Medium
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-Medium.ttf
+    - family: IBMPlexSansArabic-Light
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-Light.ttf
+    - family: IBMPlexSansArabic-Bold
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-Bold.ttf
+    - family: IBMPlexSansArabic-SemiBold
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-SemiBold.ttf
+
+#  fonts:
+#    - family: ARBFONTS
+#      fonts:
+#        - asset: assets/fonts/AL_AHD_TV.ttf
+#          weight: 300
+#        - asset: assets/fonts/ARBFONTS-DROIDKUFI-REGULAR.ttf
+#          weight: 400
+#        - asset: assets/fonts/ARBFONTS-DROIDKUFI-BOLD.ttf
+#          weight: 700
